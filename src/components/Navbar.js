@@ -16,7 +16,7 @@ function Navbar() {
 		} else {
 			setButton(true);
 		}
-	};
+	}; // render showButton only at certain size
 
 	useEffect(() => {
 		showButton();
@@ -47,20 +47,20 @@ function Navbar() {
 						</li>
 						<li className='nav-item'>
 							<Link
-								to='/services'
+								to='/portfolio'
 								className='nav-links'
 								// onClick={closeMobileMenu}
 							>
-								Services
+								Portfolio
 							</Link>
 						</li>
 						<li className='nav-item'>
 							<Link
-								to='/products'
+								to='/packages'
 								className='nav-links'
 								// onClick={closeMobileMenu}
 							>
-								Products
+								Packages
 							</Link>
 						</li>
 
