@@ -31,21 +31,21 @@ function Cards() {
 				<div className='cards__wrapper'>		
 					<ul className='cards__items'>
 						<CardItem
-							src='images/img-3.jpg'
+							src='images/videographer1a.jpg'
 							text='James has been creating videos for the last 15 years. He’s worked on projects ranging from short films, to advertisements, music videos, feature films and documentaries and entered into the wedding industry in 2016. When he’s not filming or editing he enjoys relaxing at the beach, hiking, training in mixed martial arts, skateboarding,'
-							label='James Bull'
+							label='James B'
 							path='/services'
 						/>
 						<CardItem
-							src='images/img-4.jpg'
-							text='Drone and lens specialist.'
-							label='Kevin Jevan'
+							src='images/videographer4a.jpg'
+							text='Drone operator and lens specialist guy.'
+							label='Kevin I'
 							path='/products'
 						/>
 						<CardItem
-							src='images/img-8.jpg'
-							text='Ride through the Sahara Desert on a guided camel tour'
-							label='Aisling O Neill'
+							src='images/videographer1a.jpg'
+							text='B roll angles.'
+							label='Aisling O N'
 							path='/sign-up'
 						/>
 					</ul>

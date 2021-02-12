@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "wedding-video-ireland",
+    "development": "wedding-video-ireland",
+    "wvi development": "wedding-video-ireland"
+  }
+}
