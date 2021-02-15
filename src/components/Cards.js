@@ -32,18 +32,21 @@ function Cards() {
 					<ul className='cards__items'>
 						<CardItem
 							src='images/videographer1a.jpg'
+							alt='Videographer'
 							text='James has been creating videos for the last 15 years. He’s worked on projects ranging from short films, to advertisements, music videos, feature films and documentaries and entered into the wedding industry in 2016. When he’s not filming or editing he enjoys relaxing at the beach, hiking, training in mixed martial arts, skateboarding,'
 							label='James B'
 							path='/services'
 						/>
 						<CardItem
 							src='images/videographer4a.jpg'
+							alt='Videographer'
 							text='Drone operator and lens specialist guy.'
 							label='Kevin I'
 							path='/products'
 						/>
 						<CardItem
 							src='images/videographer1a.jpg'
+							alt='Drone specialist'
 							text='B roll angles.'
 							label='Aisling O N'
 							path='/sign-up'
