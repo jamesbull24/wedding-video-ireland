@@ -30,7 +30,7 @@
 
 
 /* Style inputs, select elements and textareas */
-input[type=text], input[type=email], select, textarea{
+input[type=date], input[type=text], input[type=email], select, textarea{
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -38,9 +38,7 @@ input[type=text], input[type=email], select, textarea{
   box-sizing: border-box;
   resize: vertical;
 }  
-input[type=text].input[type=date] {
-  cursor: pointer;
-}
+
 /* Style the label to display next to the inputs */
 label {
   padding: 12px 12px 12px 0;

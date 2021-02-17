@@ -16,6 +16,24 @@ class Booking extends React.Component {
 		};
 	}
 
+	componentDidMount(){
+
+		// Prevents picking day in past
+		var today = new Date();
+		var dd = today.getDate();
+		var mm = today.getMonth()+1; //January is 0!
+		var yyyy = today.getFullYear();
+		 if(dd<10){
+				dd='0'+dd
+			} 
+			if(mm<10){
+				mm='0'+mm
+			} 
+		today = yyyy+'-'+mm+'-'+dd;
+		document.getElementById("weddingDate").setAttribute("min", today);
+	}
+
+
 	render() {
 		return (
 			<div className='booking__container'>
@@ -29,9 +47,10 @@ class Booking extends React.Component {
 				>
 					<div className='form-group'>
 						<label htmlFor='weddingDate'>Wedding Date</label>
-						<input
+						<input 
+							id="weddingDate"
 							type='date'
-							required
+							required min='1899-01-01' max='2022-12-12'
 							className='form-control'
 							value={this.state.weddingDate}
 							onChange={this.onweddingDateChange.bind(this)}
