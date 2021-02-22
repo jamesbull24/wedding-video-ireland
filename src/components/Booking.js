@@ -50,7 +50,7 @@ class Booking extends React.Component {
 						<input 
 							id="weddingDate"
 							type='date'
-							required min='1899-01-01' max='2022-12-12'
+							required min='1899-01-01' pattern="\d{4}-\d{2}-\d{2}"
 							className='form-control'
 							value={this.state.weddingDate}
 							onChange={this.onweddingDateChange.bind(this)}
