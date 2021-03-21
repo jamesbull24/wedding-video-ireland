@@ -29,8 +29,9 @@ function Navbar() {
 			<nav className='navbar'>
 				<div className='navbar-container'>
 					<Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-						WVI
-						<i class='fab fa-typo3' />
+						<img src="../images/logo.png" alt="Wedding Video Ireland"></img>
+						 {/* WVI
+						<i class='fab fa-typo3' />  */}
 					</Link>
 					<div className='menu-icon' onClick={menuClick}>
 						<i className={click ? 'fas fa-times' : 'fas fa-bars'} />

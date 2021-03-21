@@ -39,7 +39,7 @@ function Footer() {
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
+            <Link to='/'>Our Editing Process</Link>
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
@@ -68,7 +68,7 @@ function Footer() {
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>WVI © 2021</small>
+          <small class='website-rights'>Wedding Video Ireland © 2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
