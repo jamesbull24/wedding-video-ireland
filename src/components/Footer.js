@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the WVI newsletter to receive our best monthly competitions
+          Join the WVI newsletter to receive our monthly wedding compilations
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
