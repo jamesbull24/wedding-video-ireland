@@ -5,7 +5,7 @@ import Booking from '../Booking';
 function BookingDate() {
     return (
 		<>
-      <h1 className="bookingDate">BookingDate Page</h1>
+      <h1 className="bookingDate">- Secure your Date -</h1>
 		  <Booking />
 		</>
     )

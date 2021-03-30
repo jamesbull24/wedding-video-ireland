@@ -90,7 +90,7 @@ h1 {
 }
 
 .cards__item__info {
-  padding: 20px 30px 30px;
+  padding: 15px 23px 23px;
 }
 
 .cards__item__text {
@@ -116,3 +116,4 @@ h1 {
     margin-bottom: 2rem;
   }
 }
+

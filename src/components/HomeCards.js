@@ -1,8 +1,8 @@
 import React from 'react';
-import './Cards.css';
+import './HomeCards.css';
 import CardItem from './CardItem';
 
-function Cards() {
+function HomeCards() {
 	return (
 		<div className='cards'>
 			
@@ -20,8 +20,8 @@ function Cards() {
 						<CardItem
 							src='images/videographer2.jpg'
 							alt='Videographer'
-							text='Second videographer, specialising in shots of bridal preparation, audience reactions, and B-roll.'
-							label='Aisling O N'
+							text='Second shooter, specialising in shots of bridal preparation, audience reactions, and B-roll.'
+							label='Jevan McA'
 							path='/products'
 						/>
 						<CardItem
@@ -60,4 +60,4 @@ function Cards() {
 	);
 }
 
-export default Cards;
+export default HomeCards;
