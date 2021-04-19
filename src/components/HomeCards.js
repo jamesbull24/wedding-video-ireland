@@ -6,7 +6,7 @@ function HomeCards() {
 	return (
 		<div className='cards'>
 			
-			<h1>Meet the team!</h1>
+			<h2>Meet the team!</h2>
 			<div className='cards__container'>
 				<div className='cards__wrapper'>
 					<ul className='cards__items'>
@@ -35,7 +35,7 @@ function HomeCards() {
 				</div>
 			</div>
 
-			<h1>Our Packages</h1>
+			<h2>Our Packages</h2>
 			<div className='cards__container'>
 				<div className='cards__wrapper'>
 					<ul className='cards__items'>
