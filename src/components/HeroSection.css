@@ -38,6 +38,7 @@ video {
 
 .hero-btns .btn {
     margin: 6px;
+    backdrop-filter: brightness(0.88);
 }
 
 .fa-play-circle {

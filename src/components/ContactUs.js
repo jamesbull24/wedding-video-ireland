@@ -11,7 +11,7 @@ export default class extends React.Component {
 	render() {
 		return (
 			<form className='test-mailing'>
-				<h1>Let's see if it works</h1>
+				<h1>Let's see if email works</h1>
 				<div>
 					<textarea
 						id='test-mailing'
@@ -38,18 +38,19 @@ export default class extends React.Component {
 	}
 
 	handleSubmit(event) {
-		const templateId = 'service_jkxydkj';
+		const serviceId = 'service_jkxydkj';
+		const templateId = 'template_5asj0na';
 
-		this.sendFeedback(templateId, {
+		this.sendFeedback(serviceId, templateId, {
 			message_html: this.state.feedback,
 			from_name: this.state.name,
 			reply_to: this.state.email,
 		});
 	}
-
-	sendFeedback(templateId, variables) {
+	// ('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+	sendFeedback(serviceId, templateId, variables) {
 		window.emailjs
-			.send('gmail', templateId, variables)
+			.send(serviceId, templateId, variables)
 			.then((res) => {
 				console.log('Email successfully sent!');
 			})
