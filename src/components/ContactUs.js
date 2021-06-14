@@ -11,7 +11,7 @@ export default class extends React.Component {
 	render() {
 		return (
 			<form className='test-mailing'>
-				<h1>Let's see if email works</h1>
+				<h1>Does email work</h1>
 				<div>
 					<textarea
 						id='test-mailing'

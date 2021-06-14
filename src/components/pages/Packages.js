@@ -15,7 +15,7 @@ function Packages() {
 							* 2 videographers
                             * all day coverage
                             * full ceremony AND speeches edit
-                            * aerial drone footage
+                            * aerial footage
                             * anywhere in Ireland'
 							label='The Highlight Film | €1199'
 							path='/packages'
