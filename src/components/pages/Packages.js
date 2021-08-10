@@ -17,13 +17,13 @@ function Packages() {
                             * full ceremony AND speeches edit
                             * aerial footage
                             * anywhere in Ireland'
-							label='The Highlight Film | €1199'
+							label='The Highlight Film | €1099'
 							path='/packages'
 						/>
 						<CardItem
 							src='images/img-2.jpg'
 							text='3 Cameras incl Drone'
-							label='The Feature Film | €1499'
+							label='The Feature Film | €1299'
 							path='/packages'
 						/>
 					</ul>

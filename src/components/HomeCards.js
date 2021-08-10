@@ -42,15 +42,15 @@ function HomeCards() {
 						<CardItem
 							src='images/img-9.jpg'
 							text='Full Day Coverage. 
-							Cinematic style wedding highlight video capturing your wedding day with no staging or posing needed.
-							FREE drone usage at 1 location of your choice'
-							label='Basic Highlights | €1199'
+							Cinematic style wedding highlight video capturing your wedding day with no staging or posing needed. Five to six minute cinematic wedding video.'
+							label='Highlight Film | €1099'
 							path='/packages'
 						/>
 						<CardItem
 							src='images/img-2.jpg'
-							text='3 Cameras including aerial footage'
-							label='Feature Film | €1499'
+							text='Full Day Coverage. 
+							Cinematic style wedding highlight video capturing your wedding day with no staging or posing needed. Nine to ten minute cinematic wedding video.'
+							label='Feature Film | €1299'
 							path='/packages'
 						/>
 					</ul>
