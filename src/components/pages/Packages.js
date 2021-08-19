@@ -5,7 +5,7 @@ import '../../App.js';
 function Packages() {
     return (
         <>
-            <h1 className="packages">- Packages -</h1>
+            <h1 className="pageHeader">- Packages -</h1>
 			<div className='cards__container'>
 				<div className='cards__wrapper'>
 					<ul className='cards__items'>

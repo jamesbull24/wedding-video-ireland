@@ -37,9 +37,8 @@ class Booking extends React.Component {
 	render() {
 		return (
 			<div className='booking__container'>
-                <h1>Availability</h1>
-                <h1>Enquire</h1>
-                <h2>Currently booking dates for 2021 & 2022</h2>
+                <h2>Enquire about availability below</h2>
+                <h3>Currently booking dates for 2021 & 2022</h3>
 				<form
 					id='contact-form'
 					onSubmit={this.handleSubmit.bind(this)}
