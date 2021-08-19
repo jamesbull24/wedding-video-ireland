@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the WVI newsletter to receive our monthly wedding compilations
+          Join WVI to receive our monthly wedding film compilations
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -44,13 +44,13 @@ function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          {/* <div class='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
             <Link to='/'>Ambassadors</Link>
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
-          </div>
+          </div> */}
           <div class='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
@@ -94,7 +94,7 @@ function Footer() {
             >
               <i class='fab fa-youtube' />
             </Link>
-            <Link
+            {/* <Link
               class='social-icon-link twitter'
               to='/'
               target='_blank'
@@ -109,7 +109,7 @@ function Footer() {
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>
