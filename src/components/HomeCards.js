@@ -15,21 +15,21 @@ function HomeCards() {
 							alt='Videographer'
 							text='As owner of WVI, James is an avid videographer. He’s worked on recording and editing amateur short films, music videos, and entered into the wedding industry in 2020. When he’s not filming or editing he enjoys relaxing at the beach, hiking, tag rugby and front end programming.'
 							label='James B'
-							path='/services'
+							path='/jamesProfile'
 						/>
 						<CardItem
 							src='images/videographer2.jpg'
 							alt='Videographer'
 							text='As a dependable second shooter, Jevan specialises in shots of groom preparation, ceremony audience reactions, and miscellaneous B-roll shots throughout your wedding day.'
 							label='Jevan McA'
-							path='/products'
+							path='/jevanProfile'
 						/>
 						<CardItem
 							src='images/videographer3.jpg'
 							alt='Drone specialist'
 							text='Kevin loves drone. Hes our aerial drone operator, IAA licenced and generally enjoys all things that fly.'
 							label='Kevin I'
-							path='/sign-up'
+							path='/kevinProfile'
 						/>
 					</ul>
 				</div>

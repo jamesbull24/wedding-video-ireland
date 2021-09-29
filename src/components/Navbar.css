@@ -31,12 +31,13 @@
   align-items: center;
   height: auto;
   width: 80%;
+  
   object-fit: contain;
 }
 
 .navbar-logo img {
   width: auto;
-  height:70px;
+  height:65px;
   overflow: hidden;
 }
 

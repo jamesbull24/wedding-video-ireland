@@ -88,8 +88,8 @@ class Booking extends React.Component {
 					<Button
 						type='submit'
 						className='btns'
-						buttonStyle='btn--primary'
-						buttonSize='btn--large'
+						buttonStyle='btn--primaryDark'
+						buttonSize='btn--medium'
 					>
 						Submit
 					</Button>

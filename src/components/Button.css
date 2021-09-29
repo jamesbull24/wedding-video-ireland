@@ -16,6 +16,12 @@
     border: 1px solid var(--primary);
 }
 
+.btn--primaryDark {
+    background-color: var(--primary);
+    color: #252525;
+    border: 1px solid #252525;
+}
+
 .btn--outline {
     background-color: transparent;
     color: #fff;
